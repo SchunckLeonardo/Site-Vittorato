@@ -1,0 +1,71 @@
+section#imagem-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    background: url(../arquivos/imagens/imagem-services.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#imagem-slide h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 78px;
+    text-transform: uppercase;
+    font-family: "Poppins-Regular";
+}
+
+section#imagem-slide div.container-fluid {
+    padding: 0;
+}
+
+section#atuacao{
+    padding-bottom: 80px;
+}
+
+section#atuacao div.container div.col-md-12 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section#atuacao div.col-md-12 h2 {
+    text-align: center;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: #141414;
+}
+
+section#atuacao div.col-md-12 p {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    color: #929292;
+    font-weight: bold;
+    font-family: "Poppins-Thin";
+}
+
+section#atuacao div.col-md-4 {
+    margin-bottom: 15px;
+}
+
+section#atuacao div.col-md-4 div {
+    padding: 10px;
+    text-align: center;
+}
+
+section#atuacao div.col-md-4 h4 {
+    color: #000;
+    font-family: "Poppins-Regular";
+    padding: 10px;
+}
+
+section#atuacao div.col-md-4 p {
+    font-weight: bold;
+    color: #929292;
+    font-family: "Poppins-Thin";
+    font-size: 15px;
+}

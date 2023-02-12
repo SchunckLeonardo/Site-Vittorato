@@ -1,0 +1,145 @@
+section#contato div.container-fluid div.col-md-5 div.img-contact {
+    background: url(../arquivos/imagens/negocio.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+section#contato div.container-fluid div.col-md-5 {
+    padding: 0; 
+}
+
+section#contato div.col-md-7 {
+    padding: 120px 100px 90px 120px;
+}
+
+section#contato div.col-md-7 div.divisor-contato {
+    height: 1px;
+    width: 50px;
+    background-color: #00bac6;
+    margin-bottom: 50px;
+}
+
+section#contato div.col-md-7 h2 {
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: "Poppins-Regular";
+    font-size: 50px;
+    color: #141414;
+}
+
+section#contato div.col-md-7 p {
+    font-weight: bold;
+    color: #929292;
+    font-family: "Poppins-Thin";
+    margin-top: 26px;
+    margin-bottom: 35px;
+}
+
+section#contato div.col-md-7 input {
+    color: rgb(153, 153, 153);
+    font-family: "Open Sans", sans-serif;
+    width: 49.5%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 45px;
+    height: 45px;
+    padding-left: 24px;
+    margin-bottom: 30px;
+    position: relative;
+    box-shadow: none;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    background: rgb(245, 245, 245);
+    border-radius: 6px;
+}
+
+section#contato div.col-md-7 textarea {
+    color: rgb(153, 153, 153);
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 45px;
+    height: 20vh;
+    padding-left: 24px;
+    margin-bottom: 30px;
+    position: relative;
+    box-shadow: none;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    background: rgb(245, 245, 245);
+    border-radius: 6px;
+    resize: none;
+}
+
+section#contato div.col-md-7 button {
+    font-family: "Open Sans", sans-serif;
+    position: relative;
+    z-index: 2;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 53px;
+    width: 210px;
+    height: 53px;
+    border-radius: 6px;
+    padding: 0px;
+}
+
+section#contato div.col-md-7 .btn--pred {
+    color: #fff;
+    background-color: #00bac6;
+}
+
+section#contato div.col-md-7 button:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #00bac6;
+}
+
+section#contato div.col-md-7 label {
+    display: none;
+}
+
+/* Media Queries */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    section#contato div.col-md-7 input {
+        width: 100%;
+    }
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 	
+    section#contato div.col-md-7 input {
+        width: 100%;
+    }
+ }
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    section#contato div.col-md-7 input {
+        width: 100%;
+    }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 	
+    section#contato div.col-md-7 input {
+        width: 100%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }

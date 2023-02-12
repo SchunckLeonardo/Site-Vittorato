@@ -1,0 +1,116 @@
+/* Sobre */
+body {
+    margin: 0;
+    padding: 0;
+    color: #242424;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+section#sobre h1,h2,h3,h4,h5,h6 {
+    font-weight: 900;
+    color: #000;
+}
+
+section#sobre .wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+section#sobre main {
+    display: block;
+    background-color: #fff;
+}
+
+section#sobre .container2 {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section.module p {
+    margin-bottom: 40px;
+    color: #929292;
+    font-weight: bold;
+    font-family: "Poppins-Thin";
+}
+
+section.module:last-child{
+    margin-bottom: 0;
+}
+
+section.module h2 {
+    margin-bottom: 40px;
+    font-size: 50px;
+    color: #141414;
+}
+
+section.module.content {
+    padding: 40px 0;
+    background: #fff;
+}
+
+section#sobre section.module.parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+section.module.parallax:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+}
+
+section.module.parallax-1 {
+    background-image: url(../arquivos/imagens/equipe.jpg);
+}
+
+section.module.parallax-2 {
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../arquivos/imagens/empresa.jpg);
+    
+}
+
+section#sobre section.module.parallax h1,section#sobre section.module.parallax h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 78px;
+    z-index: 50;
+    text-transform: uppercase;
+    font-family: "Poppins-Regular";
+}
+
+section#sobre section.module.parallax h1 span, section#sobre section.module.parallax h3 span {
+    color: #00bac6;
+}
+
+section#sobre div.container div.col-md-4 div.caixa {
+    border: 3px solid #00bac6;
+    border-radius: 25px;
+    background-color: #00bac6;
+    margin: 10px;
+}
+
+section#sobre div.container div.col-md-4 div.caixa h3 {
+    padding: 10px 25px;
+    color: #fff;
+}
+
+section#sobre div.container div.col-md-4 div.caixa p {
+    padding: 0px 25px;
+    color: #fff;
+}

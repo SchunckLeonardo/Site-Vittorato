@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>R.G.I Vittorato</title>
+    
+    <!-- Estilo CSS -->
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/contact.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Ícone Web -->
+    <link rel="icon" href="arquivos/imagens/logo.png">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/dafeccc091.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <header> <!-- Cabeçalho -->
+
+        <nav class="navbar navbar-expand-lg">
+
+            <div class="container">
+
+                <!-- Logo -->
+                <nav class="navbar-brand">
+                    <a href="">
+                        <img src="arquivos/imagens/logo.png" width="100">
+                    </a>
+                </nav>
+
+                <!--Menu Hamburguer-->
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </button>
+
+                <!--Navegação-->
+                <div class="navbar-collapse collapse" id="nav-target">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about-us.html" class="nav-link">Sobre Nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="services.html" class="nav-link">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link active">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Formulário -->
+                <form class="form-inline d-none d-lg-block">
+                    <input class="form-control ml-5" type="text" placeholder= "Search Something">
+                </form>
+            
+            </div>
+
+        </nav>
+
+    </header>
+
+    <section id="contato">
+
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <div class="col-md-7">
+
+                    <h2>Entre em contato</h2>
+                    <p>Caso você sente dúvidas ao gerenciar sua empresa, de fazer um planejamento estratégico ou tributário. Entre em contato.</p>
+                    <div class="divisor-contato">
+                    </div>
+
+                    <div class="form-request">
+
+                        <form action="https://api.staticforms.xyz/submit" method="post">
+
+                            <label>Nome</label>
+                                <input type="text" name="name" placeholder="Digite seu nome" required>
+                            <label>Email</label>
+                                <input type="email" name="email" placeholder="Digite seu email" required> <br>
+                            <label>Mensagem</label>
+                                <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea> <br>
+                                    
+                            <button class="btn btn--pred" type="submit">Enviar</button>
+                                    
+                            <input type="hidden" name="accessKey" value="580baf16-253d-4edc-9387-756115e66d1e">
+                            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/success.html">
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-5 d-md-block d-none">
+
+                    <div class="img-contact">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer> <!-- Footer -->
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-9">
+
+                    <h5>&#169 2023 JVN Consultores. Todos os direitos reservados. </h5> <br>
+                    <a href="">Termos de Uso</a> <br>
+                    <a href="">Política de Privacidade</a>
+                    <p>Designed by <a href="https://schunckleonardo.github.io/Portfolio-Leonardo-Schunck-Rainha/"><img class="img-fluid" width="60" src="arquivos/imagens/Logo Leo (Atualizada PNG).png"></a></p>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <a href="https://instagram.com/contabilidade.jvn?igshid=Zjc2ZTc4Nzk="><i class="fa-brands fa-instagram"></i></a>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>R.G.I Vittorato</title>
+    
+    <!-- Estilo CSS -->
+    <link rel="stylesheet" href="estilo/style.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Ícone Web -->
+    <link rel="icon" href="arquivos/imagens/logo.png">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/dafeccc091.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <header> <!-- Cabeçalho -->
+
+        <nav class="navbar navbar-expand-lg">
+
+            <div class="container">
+
+                <!-- Logo -->
+                <nav class="navbar-brand">
+                    <a href="">
+                        <img src="arquivos/imagens/logo.png" width="100">
+                    </a>
+                </nav>
+
+                <!--Menu Hamburguer-->
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </button>
+
+                <!--Navegação-->
+                <div class="navbar-collapse collapse" id="nav-target">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link active">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about-us.html" class="nav-link">Sobre Nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="services.html" class="nav-link">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Formulário -->
+                <form class="form-inline d-none d-lg-block">
+                    <input class="form-control ml-5" type="text" placeholder= "Search Something">
+                </form>
+            
+            </div>
+
+        </nav>
+
+    </header>
+
+    <section id="slides"> <!-- Slide -->
+
+        <div class="container-fluid">
+
+            <div id="mainSlider" class="carousel slide" data-ride="carousel"> <!--Carousel-->
+
+                <ol class="carousel-indicators">
+                    <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+                    <li data-target="#mainSlider" data-slide-to="1"></li>
+                    <li data-target="#mainSlider" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner"> <!--Inner-->
+
+                    <div class="carousel-item active">
+                        <img src="arquivos/imagens/slide1.jpg" class="d-block w-100 img-fluid" alt="Projetos de e-commerce">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Contabilidade Consultiva</h2>
+                            <p>Por mais de 10 anos, nós da JVN, trabalhamos ao lado de tecnologias para ficarmos mais próximos dos clientes
+                            atuando de maneira estratégica para uma melhor tomada de decisão</p>
+                            <a href="#" class="main-btn">Ver portfólio</a>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="arquivos/imagens/slide2.jpg" class="d-block w-100 img-fluid" alt="Contabilidade">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Está querendo tirar o projeto do papel?</h2>
+                            <p>Nossa equipe de contabilidade é uma das melhores do Brasil</p>
+                            <a href="#" class="main-btn">Ver equipe</a>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="arquivos/imagens/slide3.jpg" class="d-block w-100 img-fluid" alt="Extrato Bancário">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Quer fazer o seu imposto de renda?</h2>
+                            <p>Podemos te ajudar</p>
+                            <a href="#" class="main-btn">Entrar em contato</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <a href="#mainSlider" class="carousel-control-prev" role="button" data-slide="prev"> <!-- Previous -->
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+
+                <a href="#mainSlider" class="carousel-control-next" role="button" data-slide="next"> <!-- Next -->
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+
+            </div> <!--/Carousel-->
+
+        </div>
+
+    </section>
+
+    <section id="qualidades"> <!-- Qualidades -->
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <h2>JVN <span>contabilidade</span> </h2>
+                    <p> 
+                        A JVN não é apenas uma contabilidade, mas sim, uma empresa que abrange toda a área financeira, trazendo os melhores recursos para um crescimento exponencial
+                        do teu negócio. Serviços como: Recuperação judicial, auditoria, consultoria, consultoria tributária, constultoria de negócios, consultoria em tecnologia
+                        e acessoria em transações.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-4">
+
+                    <img src="arquivos/imagens/agilidade.png" alt="agilidade" width="150">
+                    <h4><span>Agilidade</span></h4>
+                    <p>Através das nossas tecnologias os processos que antes eram demorados, tornaram-se mais ágeis e inteligentes. A JVN trabalha com ferramentas, que nos auxilia na tomada de decisão com base na automatização nos processos e nas atividades que antes eram feitas manualmente.</p>
+
+
+                </div>
+
+                <div class="col-md-4" id="baixo">
+
+                    <img src="arquivos/imagens/resultados.png" alt="resultados" width="150">
+                    <h4><span>resultados</span></h4>
+                    <p>Resultado nada mais é do que a soma de todas as ações baseadas em conhecimento, ferramentas tecnológicas, comprometimento com o cliente e prazo. Nossos esforços estão na performance de entrega de resultados.</p>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <img src="arquivos/imagens/seriedade.png" alt="seriedade" width="150">
+                    <h4><span>Seriedade</span> </h4>
+                    <p>A transparência e a seriedade do seu trabalho conduziram a JVN à condição de uma das maiores Auditorias do Brasil. 
+                        Junto à tradição de bons serviços está a busca permanente de aperfeiçoamento. Ao lado de um grande apuro técnico, uma relação de confiança e parceria: o trabalho desenvolvido traz lucratividade aos clientes. No dia-a-dia, a certeza de ser uma empresa adequada ao seu tempo: moderna, ágil e eficiente.</p>
+
+                </div>
+                
+
+            </div>
+
+        </div>
+
+    </section>
+    
+    <div id="triangulo"></div>
+    <section id="imagens"> <!-- Imagens -->
+
+            <div class="container">
+
+                <div class="row"> <!-- Linha 1 -->
+
+                    <div class="col-md-4">
+                        <div>
+                            <img src="arquivos/imagens/imagem1.jpg" alt="" class="img-fluid">
+                            <h5>Planejamento Tributário</h5>
+                            <p>
+                                Fazemos estudos elaborados com o objetivo de reduzir a carga tributária de uma empresa de forma totalmente legal.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div>
+                            <img src="arquivos/imagens/imagem2.jpg" alt="" class="img-fluid">
+                            <h5>Auditoria</h5>
+                            <p>Fazemos análise da situação financeira do seu negócio. com o objetivo de checar se os registros contábeis foram realizados corretamente.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div>
+                            <img src="arquivos/imagens/imagem3.jpg" alt="" class="img-fluid">
+                            <h5>Hold Familiar</h5>
+                            <p>Criamos uma  empresa para controlar e administrar o patrimônio das pessoas que pertencem a uma determinada família. O objetivo, em geral, é buscar eficiência tributária para os bens da Familia</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row"> <!-- Linha 2 -->
+
+                    <div class="col-md-4">
+                        <div>
+                            <img src="arquivos/imagens/imagem4.jpg" alt="" class="img-fluid">
+                            <h5>Imposto de Renda</h5>
+                            <p>O imposto sobre o rendimento em que cada contribuinte, seja ele pessoa física ou pessoa jurídica. A dedução é realizada com base nas informações financeiras de cada contribuinte, obedecendo a tabela do organismo fiscalizador.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+
+                        <div>
+                            <img src="arquivos/imagens/imagem5.jpg" alt="" class="img-fluid">
+                            <h5>Consultoria</h5>
+                            <p>Realizamos a apresentação de insights e diagnósticos que ajudam a melhorar a saúde financeira do seu negócio.</p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-md-4">
+                        <div>
+                            <img src="arquivos/imagens/imagem6.jpg" alt="" class="img-fluid">
+                            <h5>Recuperação Judicial</h5>
+                            <p>Nosso objetivo é evitar que a sua empresa quebre. A ideia não é apenas ajudar os donos do empreendimento, mas também evitar que trabalhadores fiquem sem emprego, que fornecedores percam um cliente e que Estado deixe de arrecadar impostos.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+    </section>
+
+    <section id="empresas"> <!-- Empresas -->
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-3">
+
+                    <img src="arquivos/imagens/logo1.png" class="img-fluid" alt="">
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <img src="arquivos/imagens/logo2.png"  class="img-fluid" alt="">
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <img src="arquivos/imagens/logo3.png"  class="img-fluid" alt="">
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <img src="arquivos/imagens/logo4.png"  class="img-fluid" alt="">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="informacoes"> <!-- Informações -->
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-4">
+
+                    <h3>Posts Instagram</h3>
+                        
+        
+                </div>
+
+                <div class="col-md-4">
+
+                    <h3>Um pouco sobre nós</h3>
+                    <p>
+                        
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+
+                    <h3>Entre em contato</h3>
+                    <p>
+
+                    </p>
+                    <i class="fa-solid fa-location-dot"></i> <a href="https://www.google.com.br/maps/place/Cidade+Jardim+Corporate+Center+(JHSF)/@-23.6017646,-46.7005613,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce5731b4855555:0x6dce3255c0e9dd62!8m2!3d-23.6017695!4d-46.6983728"> Cidade Jardim, São Paulo </a> <br>
+                    <i class="fa-solid fa-envelope"></i> <a href="">consultoriavittorato@gmail.com</a> <br>
+                    <i class="fa-solid fa-phone"></i> <a href="https://api.whatsapp.com/send?phone=5511910001287&text=Ol%C3%A1,%20gostaria%20da%20ajuda%20da%20JVN.">+55 11 91000-1287</a>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer> <!-- Footer -->
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-9">
+
+                    <h5>&#169 2023 JVN Consultores. Todos os direitos reservados. </h5> <br>
+                    <a href="">Termos de Uso</a> <br>
+                    <a href="">Política de Privacidade</a>
+                    <p>Designed by <a href="https://schunckleonardo.github.io/Portfolio-Leonardo-Schunck-Rainha/"><img class="img-fluid" width="60" src="arquivos/imagens/Logo Leo (Atualizada PNG).png"></a></p>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <a href="https://instagram.com/contabilidade.jvn?igshid=Zjc2ZTc4Nzk="><i class="fa-brands fa-instagram"></i></a>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
