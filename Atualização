@@ -1,0 +1,41 @@
+#ChatBot Claúdia
+const functions = require('firebase-functions');
+const {WebhookClient} = require('dialogflow-fulfillment');
+
+exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, response) => {
+  const agent = new WebhookClient({ request, response });
+
+  function welcome(agent) {
+    agent.add(`Olá, como posso ajudá-lo?`);
+  }
+
+  let intentMap = new Map();
+  intentMap.set('Default Welcome Intent', welcome);
+  agent.handleRequest(intentMap);
+});
+const { ActionExecutioner } = require('botpress/sdk')
+const axios = require('axios')
+module.exports = async function (event, state, logger) {
+  const result = await axios.get('https://api.example.com/data')
+  const data = result.data
+
+  // Faz alguma coisa com os dados
+  // ...
+
+  // Envia uma mensagem de resposta ao usuário
+  const action = {
+    type: 'send_text',
+    text: `Aqui está a resposta: ${data}`
+  }
+
+  // Executa a ação
+  const actionExec = new ActionExecutioner()
+  return actionExec.run(action, event, state, logger)
+}
+## story_001
+* saudação
+- Olá, como posso ajudá-lo?
+
+## story_002
+* agradecimento
+- De nada, estou sempre aqui para ajudar!
